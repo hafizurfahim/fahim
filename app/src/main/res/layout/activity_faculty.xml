@@ -1,0 +1,175 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#A7EBEB"
+    tools:context=".FacultyActivity"
+    android:orientation="vertical"
+
+
+    >
+
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Course : Cse 401  \nFaculty : Dr.Farhana Sarkar  "
+        android:textSize="30sp"
+        android:textColor="#0E0101"
+        android:background="#EEE8E8"
+        android:textStyle="bold"
+        android:padding="10dp"
+        android:layout_marginBottom="10dp"
+
+        />
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:weightSum="4"
+
+        android:orientation="horizontal"
+        >
+        <TextView
+            android:layout_width="150dp"
+            android:layout_height="wrap_content"
+            android:text="Name \n Id "
+            android:layout_weight="2"
+            android:textStyle="bold"
+            android:padding="10dp"
+            android:background="#E4DEDE"
+            android:textSize="20sp"
+            />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="70dp"
+            android:text=" present "
+            android:layout_weight="1"
+            android:padding="10dp"
+            android:textStyle="bold"
+            android:background="#E4DEDE"
+            android:textSize="20sp"
+            />
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="70dp"
+            android:text="Absent"
+            android:layout_weight="1"
+            android:padding="10dp"
+
+            android:textStyle="bold"
+            android:background="#E4DEDE"
+            android:textSize="20sp"
+
+            />
+
+
+    </LinearLayout>
+<LinearLayout
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:orientation="horizontal">
+<TextView
+    android:layout_width="230dp"
+    android:layout_height="wrap_content"
+    android:padding="10dp"
+    android:text="Fahim\n171014054"
+
+    android:textSize="25sp"
+    />
+    <RadioGroup
+        android:id="@+id/rg1"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+       android:orientation="horizontal"
+        >
+
+
+        <RadioButton
+
+            android:id="@+id/rbutton1"
+            android:layout_width="60dp"
+            android:layout_height="wrap_content" />
+
+        <RadioButton
+
+            android:id="@+id/rbutton2"
+
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+         android:layout_marginLeft="50dp"/>
+
+
+
+
+
+    </RadioGroup>
+
+
+</LinearLayout>
+    <LinearLayout
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:orientation="horizontal">
+    <TextView
+        android:layout_width="230dp"
+        android:layout_height="wrap_content"
+        android:padding="10dp"
+        android:text="ArafatMota\n171014031"
+
+        android:textSize="25sp"
+        />
+    <RadioGroup
+        android:id="@+id/rg2"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        >
+
+
+        <RadioButton
+
+            android:id="@+id/rbutton3"
+            android:layout_width="60dp"
+            android:layout_height="wrap_content" />
+
+        <RadioButton
+
+            android:id="@+id/rbutton4"
+
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="50dp"/>
+
+
+
+
+
+    </RadioGroup>
+
+
+</LinearLayout>
+
+
+
+
+    <TextView
+        android:id="@+id/resultt"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:textSize="30sp"
+
+        />
+    <Button
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="280dp"
+        android:layout_marginTop="300dp"
+        android:onClick="outt"
+        android:text="Submit" />
+
+
+</LinearLayout>

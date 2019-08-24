@@ -1,0 +1,96 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#F00655"
+    android:orientation="vertical"
+    android:layout_gravity="center"
+    tools:context=".MainActivity">
+<TextView
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:text="Ulab Attendance System"
+    android:textSize="35sp"
+    android:textColor="#EEEAEA"
+    android:layout_marginTop="50dp"
+    android:textStyle="bold"
+    android:gravity="center"
+    />
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="100dp"
+        android:text="Welcome"
+
+        android:gravity="center"
+        android:textColor="#EEEAEA"
+        android:textStyle="bold"
+        android:textSize="50sp"
+        android:textAlignment="center"
+         />
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="100dp"
+
+        >
+
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="10dp"
+            android:layout_marginLeft="10dp"
+            android:text="Log In as  : "
+            android:textColor="#EEEAEA"
+            android:textStyle="bold"
+            android:textSize="30sp" />
+
+        <Button
+            android:id="@+id/facultyid"
+            android:layout_width="wrap_content"
+            android:layout_height="60dp"
+            android:layout_margin="18dp"
+            android:background="#EBE1DE"
+            android:paddingRight="10dp"
+            android:text="Faculty / TA"
+            android:onClick="faculty"
+            android:textSize="30sp" />
+
+
+    </LinearLayout>
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        >
+        <Button
+            android:id="@+id/adminid"
+            android:layout_width="202dp"
+            android:layout_height="wrap_content"
+           android:layout_marginLeft="180dp"
+         android:layout_marginBottom="20dp"
+            android:padding="15dp"
+            android:background="#EBE1DE"
+            android:text="Admin"
+            android:textSize="25sp"
+            android:onClick="admin"
+            />
+
+        <Button
+            android:id="@+id/studentid"
+            android:layout_width="202dp"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="180dp"
+            android:layout_marginTop="1dp"
+            android:padding="15dp"
+            android:background="#EBE1DE"
+            android:text="Student"
+            android:onClick="student"
+
+            android:textSize="25sp"
+            />
+    </LinearLayout>
+</LinearLayout>
